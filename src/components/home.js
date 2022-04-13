@@ -3,8 +3,8 @@ import {View,Text} from 'react-native'
 
 function Home() {
   return (
-    <View>
-        <Text>hello Git</Text>
+    <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
+        <Text>Hello Git</Text>
     </View>
   )
 }
